@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav {
+    background-color: #0c0c0c;
+}
+
+body {
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.text-red {
+    color: red;
+}
+
+.border-green {
+    border: green 3px solid;
+}
+
+.border-orange {
+    border: orange 3px solid;
+}
+
+.border-red {
+    border: red 3px solid;
+}
+
+/* NAV */
+
+nav {
+    padding: 0 70px;
+}
+
+nav.navbar {
+    padding: 0 70px;
+}
+
+nav a.nav-link:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+nav img {
+    width: 100px;
+}
+
+.offcanvas {
+    background-color: #212529;
+}
+
+/* MOVIES */
+
+section.movies {
+    margin-top: 150px;
+}
+
+div.genre {
+    padding: 10px 80px;
+}
+
+.poster-img {
+    width: 200px;
+    border-radius: 5px;
+}
+
+/* MODAL */
+
+.modal-content,
+.modal-header {
+    background-color: #181818;
+    border-bottom: #0c0c0c;
+}
+
+.average {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.modal-content h5 {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.modal-content img {
+    width: 150px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 15px;
+    font-size: 10px;
+}
+
+footer a {
+    color: #fff;
+    padding: 0 5px;
+    opacity: .5;
+}
+
+footer a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+/* Media query*/
+
+@media (max-width: 1176px) {
+    .movies_container img {
+        width: 150px;
+    }
+}
