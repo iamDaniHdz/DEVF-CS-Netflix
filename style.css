@@ -17,27 +17,27 @@ body {
 }
 
 .text-green {
-    color: green;
+    color: #198754;
 }
 
 .text-orange {
-    color: orange;
+    color: #ffc107;
 }
 
 .text-red {
-    color: red;
+    color: #dc3545;
 }
 
 .border-green {
-    border: green 3px solid;
+    border: #198754 3px solid;
 }
 
 .border-orange {
-    border: orange 3px solid;
+    border: #ffc107 3px solid;
 }
 
 .border-red {
-    border: red 3px solid;
+    border: #dc3545 3px solid;
 }
 
 /* NAV */
